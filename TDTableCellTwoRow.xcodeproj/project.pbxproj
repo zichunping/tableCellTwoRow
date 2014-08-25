@@ -25,6 +25,7 @@
 		9D5CD83D19AB27AD004EF710 /* SubCollectionsCell2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CD83C19AB27AD004EF710 /* SubCollectionsCell2TableViewCell.m */; };
 		9D5CD84019AB27EA004EF710 /* SubCollectionsCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CD83F19AB27EA004EF710 /* SubCollectionsCellView.m */; };
 		9D5CD84219AB6EEE004EF710 /* me@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D5CD84119AB6EEE004EF710 /* me@2x.png */; };
+		9D5CD84619AB707C004EF710 /* TDModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D5CD84519AB707C004EF710 /* TDModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		9D5CD83E19AB27EA004EF710 /* SubCollectionsCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCollectionsCellView.h; sourceTree = "<group>"; };
 		9D5CD83F19AB27EA004EF710 /* SubCollectionsCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCollectionsCellView.m; sourceTree = "<group>"; };
 		9D5CD84119AB6EEE004EF710 /* me@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "me@2x.png"; sourceTree = "<group>"; };
+		9D5CD84419AB707C004EF710 /* TDModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDModel.h; sourceTree = "<group>"; };
+		9D5CD84519AB707C004EF710 /* TDModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,7 @@
 		9D5CD80419AB1850004EF710 /* TDTableCellTwoRow */ = {
 			isa = PBXGroup;
 			children = (
+				9D5CD84319AB705B004EF710 /* Model */,
 				9D5CD80D19AB1850004EF710 /* TDAppDelegate.h */,
 				9D5CD80E19AB1850004EF710 /* TDAppDelegate.m */,
 				9D5CD81019AB1850004EF710 /* Main.storyboard */,
@@ -177,6 +181,15 @@
 			);
 			name = image;
 			path = ../image;
+			sourceTree = "<group>";
+		};
+		9D5CD84319AB705B004EF710 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D5CD84419AB707C004EF710 /* TDModel.h */,
+				9D5CD84519AB707C004EF710 /* TDModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,6 +297,7 @@
 				9D5CD80F19AB1850004EF710 /* TDAppDelegate.m in Sources */,
 				9D5CD83D19AB27AD004EF710 /* SubCollectionsCell2TableViewCell.m in Sources */,
 				9D5CD80B19AB1850004EF710 /* main.m in Sources */,
+				9D5CD84619AB707C004EF710 /* TDModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +502,7 @@
 				9D5CD82F19AB1850004EF710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9D5CD83019AB1850004EF710 /* Build configuration list for PBXNativeTarget "TDTableCellTwoRowTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +511,7 @@
 				9D5CD83219AB1850004EF710 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

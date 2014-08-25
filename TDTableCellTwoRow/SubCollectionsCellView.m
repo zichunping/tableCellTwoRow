@@ -55,4 +55,11 @@
 }
 
 
+-(void)setUpModel:(TDModel *)model{
+    self.iconImageView.image = model.inconImage;
+    self.lblTitle.text = model.titleString;
+    self.lblContent.text = model.contentString;
+    self.lblSubTitle.text = model.subTitleString;
+}
+
 @end

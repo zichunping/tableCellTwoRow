@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TDModel.h"
 
 @interface SubCollectionsCellView : UIView
 
@@ -15,4 +16,6 @@
 @property(nonatomic,strong) UILabel *lblSubTitle;
 @property(nonatomic,strong) UILabel *lblContent;
 
+
+-(void) setUpModel:(TDModel *)model;
 @end
